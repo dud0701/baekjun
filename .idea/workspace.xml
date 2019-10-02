@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04d38822-2cdd-47c7-8549-ef8aa15b6fea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LinkedList/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LinkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/josephers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/StackSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/StackSequence.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +27,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nokia_ems_middleware" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -44,7 +46,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StackSequence">
+  <component name="RunManager" selected="Application.Editor">
+    <configuration name="Editor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Editor" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="CodingPractice" />
@@ -85,9 +100,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.StackSequence" />
       <item itemvalue="Application.StackSequence (1)" />
+      <item itemvalue="Application.Editor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Editor" />
         <item itemvalue="Application.StackSequence" />
         <item itemvalue="Application.StackSequence (1)" />
       </list>
@@ -111,7 +128,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
