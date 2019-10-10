@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04d38822-2cdd-47c7-8549-ef8aa15b6fea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/LinkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/LinkedList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/josephers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Deque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/company/Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/company/Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/company/LinkedList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/company/LinkedList/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/company/josephers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/company/josephers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LinkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LinkedList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +31,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nokia_ems_middleware" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-springboot-fullstack-tutorial" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -46,9 +50,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Editor">
-    <configuration name="Editor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Editor" />
+  <component name="RunManager" selected="Application.boj_10799">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="CodingPractice" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Queue" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
@@ -60,22 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="CodingPractice" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackSequence (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ex.StackSequence" />
+    <configuration name="boj_10799" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.boj_10799" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ex.*" />
+          <option name="PATTERN" value="com.company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,8 +87,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.StackSequence" />
+    <configuration name="josephers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.josephers" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverseLetters2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.reverseLetters2" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
@@ -98,15 +115,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.StackSequence" />
-      <item itemvalue="Application.StackSequence (1)" />
-      <item itemvalue="Application.Editor" />
+      <item itemvalue="Application.Queue" />
+      <item itemvalue="Application.josephers" />
+      <item itemvalue="Application.reverseLetters2" />
+      <item itemvalue="Application.boj_10799" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Editor" />
-        <item itemvalue="Application.StackSequence" />
-        <item itemvalue="Application.StackSequence (1)" />
+        <item itemvalue="Application.boj_10799" />
+        <item itemvalue="Application.reverseLetters2" />
+        <item itemvalue="Application.josephers" />
+        <item itemvalue="Application.Queue" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
