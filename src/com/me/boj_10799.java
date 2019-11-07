@@ -1,4 +1,4 @@
-package com.company;
+package com.me;
 
 import java.io.BufferedReader;
 import java.io.IOException;

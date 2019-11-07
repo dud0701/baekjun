@@ -1,7 +1,6 @@
-package com.company;
+package com.me;
 
 import java.io.*;
-import java.nio.Buffer;
 import java.util.Stack;
 
 public class reverseLetters2 {
